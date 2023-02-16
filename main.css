@@ -3,10 +3,11 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    background-color: black;
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     background: rgb(4, 4, 4);
     display: flex;
     align-items: center;
@@ -75,6 +76,7 @@
     transition: bottom 0.5s, opacity 0.5s;
     background-color: black;
     border-radius: 100px;
+    text-shadow: rgb(255, 255, 254) 0 0.0em 0.60em;
 }
 .img-box:hover{
     width: 300px;
@@ -83,4 +85,17 @@
 .img-box:hover h3{
     opacity: 1;
     bottom: 25px;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+}
+.footer ul a i{
+    background-color: #fff;
+    border-radius: 10px;
+    text-shadow: rgb(255, 255, 254) 0 0.0em 0.60em;
+
 }
